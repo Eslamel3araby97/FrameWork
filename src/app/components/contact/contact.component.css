@@ -1,0 +1,26 @@
+.header{
+    color: #2C3E50;
+}
+
+.header{
+    position: relative;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    left: 25%;
+    bottom: -20%;
+    height: 4px;
+    width: 100px;
+    background-color: #2C3E50;
+}
+.header::after{
+    content: '';
+    position: absolute;
+    right:25%;
+    bottom: -20%;
+    height: 4px;
+    width: 100px;
+    background-color: #2C3E50;
+}

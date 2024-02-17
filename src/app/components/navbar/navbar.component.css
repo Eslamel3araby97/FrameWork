@@ -1,0 +1,12 @@
+body{
+    background-color: #2C3E50;
+}
+
+a{
+    color: white !important;
+}
+
+.active{
+    background-color: #1ABC9C;
+    border-radius:10px;
+}
